@@ -1,0 +1,95 @@
+body{
+    font-family: 'Lora', serif; 
+    overflow-x: hidden;
+}
+
+.addons{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 38vw;
+    background-color: #FCF0A8;
+    height: 850px;
+    z-index: -1;
+}
+
+.container{
+    /* background-color: grey; */
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.top{
+    margin-top: 5vh;
+}
+
+.top i{
+    font-size: 5vh;
+}
+
+.navbar{
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+.navbar a{
+    padding: 0 3vw;
+    color: black;
+}
+
+.navbar a:first-child{
+    padding-left: 0;
+}
+
+.top p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    column-rule-color: rgb(29, 29, 29);
+    letter-spacing: 3.4px;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.content{
+    margin-top: 15vh;
+    text-align: justify;
+}
+
+.title{
+    text-align: right;
+}
+
+.title h1{
+    font-size: 65px;
+    margin-top: 0px;
+}
+
+.title h2{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.title p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+#span1{
+    display: inline-block;
+    width: 33.5vw;
+}
+
+#span2{
+    display: inline-block;
+    width: 7vw;
+}
+
+.overview{
+    margin-top: 50vh;
+}
