@@ -1,6 +1,7 @@
 body {
   font-family: "Lora", serif;
   overflow-x: hidden;
+  right: 0;
 }
 
 @media (max-width: 768px) {
@@ -27,14 +28,23 @@ body {
   }
 }
 
+/* Main Boundary */
+
+.boundary{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* Container Area */
 
 .container {
   /* background-color: grey; */
+  position: absolute;
   display: flex;
   justify-self: center;
   flex-direction: column;
-  width: 80vw;
+  width: 80%;
 }
 
 @media (max-width: 768px) {
@@ -181,6 +191,7 @@ body {
   }
 }
 
+
 /* Projects */
 
 .projects {
@@ -238,12 +249,41 @@ body {
 }
 
 .project-list img {
-  width: 100vw;
+  width: 40vw;
   max-width: 650px;
   height: auto;
 }
 
 @media (max-width: 768px) {
+  .projects{
+    margin-top: 0;
+  }
+
+  .project-list {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-list li {
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+  }
+
+  .project-list .desc {
+    width: 100%;
+  }
+
+  .project-list h2 {
+    font-size: 3rem;
+  }
+
+  .project-list img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
   .projects{
     margin-top: 0;
   }
