@@ -4,24 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/latest/normalize.css"
-    />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css" />
     <link rel="stylesheet" href="style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -49,10 +42,7 @@
           <div class="overview">
             <h1>Overview!</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
-              dolorem voluptas perferendis ab dicta possimus. Ipsa ipsum facilis
-              numquam maxime, animi enim officiis similique deserunt iure, sint
-              soluta quis iste?
+              Part-Time Kpoper, and Full-Time Hater.
             </p>
           </div>
 
@@ -60,21 +50,32 @@
             <h1>Projects!</h1>
 
             <ul class="project-list">
-              <a href="https://diuta.github.io/Willify/index.html"
-                ><li>
-                  <div class="desc">
-                    <h2>Willify</h2>
-                    <p>
-                      First project! I think of it like a mini Spotify. But
-                      eventhough it was built with simple html, I was pretty
-                      proud of this one not gonna lie.
-                    </p>
-                    <p id="lang">HTML CSS JS</p>
-                  </div>
-                  <div class="cover">
-                    <img src="component/p1.gif" />
-                  </div></li
-              ></a>
+              <li id="Willify">
+                <div class="desc">
+                  <h2>Willify <i class="material-icons" id="Willify-git">folder_code</i></h2>
+                  <p>
+                    First project! I think of it like a mini version of <b>Genius</b>. Even though it was built with simple html, I was pretty proud of this one not gonna lie.
+                  </p>
+                  <p id="lang">HTML CSS JS</p>
+                </div>
+                <div class="cover">
+                  <img src="component/p1.gif" />
+                </div>
+              </li>
+
+              <li id="TEA">
+                <div class="desc">
+                  <h2>TEA <i class="material-icons" id="TEA-git">folder_code</i></h2>
+                  <p>
+                    which stands for <b>Text-Emotion-Analyzer</b>, is my very first AI project. This is a web app that can analyze the emotion of the inputted text.
+                  </p>
+                  <p id="lang">Python HTML CSS</p>
+                </div>
+                <div class="cover">
+                  <img src="component/p2.gif" />
+                </div>
+              </li>
+
             </ul>
           </div>
         </div>
