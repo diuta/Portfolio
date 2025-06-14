@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lora", serif;
   overflow-x: hidden;
@@ -241,9 +245,10 @@ body {
 .project-list li:has(.material-icons:hover) {
   transform: none;
 }
-.project-list h2{
-  font-size: 4rem;
-  letter-spacing: 3px;
+.project-list .pName{
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
   margin: 0;
 }
 .project-list p {
@@ -284,10 +289,6 @@ body {
     width: 100%;
   }
 
-  .project-list h2 {
-    font-size: 3rem;
-  }
-
   .project-list img {
     width: 100%;
     max-width: 100%;
@@ -312,10 +313,6 @@ body {
 
   .project-list .desc {
     width: 100%;
-  }
-
-  .project-list h2 {
-    font-size: 3rem;
   }
 
   .project-list img {
