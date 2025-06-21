@@ -38,4 +38,14 @@ $(document).ready(function() {
         e.preventDefault();
         window.location.href = "https://github.com/diuta/SubDue";
     });
+    
+    $("#Corsoly").on("click", function(e) {
+        e.preventDefault();
+        window.location.href = "https://corsoly.vercel.app/";
+    });
+    $("#Corsoly-git").on("click", function(e) {
+        e.stopPropagation();
+        e.preventDefault();
+        window.location.href = "https://github.com/diuta/Corsoly";
+    });
 });
